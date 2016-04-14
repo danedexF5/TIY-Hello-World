@@ -1,0 +1,33 @@
+➜  ~ nano Hello World
+➜  ~ echo hello.txt
+hello.txt
+➜  ~ echo hello
+hello
+➜  ~ hello.txt
+zsh: command not found: hello.txt
+➜  ~ Hello.txt
+zsh: command not found: Hello.txt
+➜  ~ nano hello world
+➜  ~ hello.txt
+zsh: command not found: hello.txt
+➜  ~ nano hello world
+➜  ~ hello.txt
+zsh: command not found: hello.txt
+➜  ~ hello.java
+zsh: command not found: hello.java
+➜  ~ nano hello
+➜  ~ HelloWorld.java
+zsh: command not found: HelloWorld.java
+➜  ~ HelloWorld.java > javac HelloWorld.java
+zsh: command not found: HelloWorld.java
+➜  ~ nano helloworld
+➜  ~ nano HelloWorld
+➜  ~ nano HelloWorld.java
+➜  ~ ~/introcs/hello> javac HelloWorld.java
+zsh: no such file or directory: /Users/danedexheimer/introcs/hello
+➜  ~ /introcs/hello> javac HelloWorld.java 
+zsh: no such file or directory: /introcs/hello
+➜  ~ nano hello
+➜  ~ javac HelloWorld.java
+➜  ~ java HelloWorld
+hello!
